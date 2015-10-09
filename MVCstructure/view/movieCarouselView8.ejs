@@ -1,0 +1,40 @@
+<%$('#ticketDetails').empty();%>
+<div id="theatreCarouselContainer">
+                        <ul id="theatreDetails">
+                            <% var numberOfTheatres=this[0].movies[0].theatreName.length;%>
+                                <%for(var i=0;i<this.length;i++){%>
+                                    <%if($('#hiddenMovieId').val()==this[i].movies[0].id){%>
+                                        <%for(var j=0;j<this[i].movies[0].theatreName.length;j++){%>
+                                          <% if($('#theatreWithinCity').val()=="ALL" || $('#theatreWithinCity').val()==this[i].movies[0].theatreName[j].theatre){%>
+                                              
+                                              <li>
+                                                  <p class="theatreLocation">
+                                                      <%=this[i].movies[0].theatreName[j].theatre%>
+                                                  </p>
+                                                          
+                                                  <p class="screenTime">
+                                                        <%=this[i].movies[0].theatreName[j].screen[0].screenName%> | 
+                                                        <%=this[i].movies[0].theatreName[j].screen[0].showTime%>
+                                                  </p>
+                                                  
+                                                  <p>
+                                                        <%var hiddenId=$('#hiddenMovieId').val();
+                                                        
+                                                        var movieId=$('#'+hiddenId).find('p:first').css('background-color')%>
+                                                        
+                                                        <span class="theatreName" style="background-color:<%=movieId%>">
+                                                        
+                                                        <%=this[i].movies[0].theatreName[j].screen[0].screenType[0].type1%>
+                                                        
+                                                        </span>
+                                                        
+                                                  </p>
+                                                          
+                                              </li>
+                                    <%}}}%>
+
+                                <%}%>                             
+                        </ul>
+</div>
+
+                               

@@ -1,0 +1,2060 @@
+
+{
+	"data":[{
+		"movies":[{"movieName":"Ambikapathy",
+				"id":"1",
+				"language":"Tamil",
+				"poster":"images/Ambikapathy.jpg",
+				"posterHover":"images/33RDX-3D.jpg",
+				"availability":"Available",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},
+							{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"3"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Annakodi",
+				"id":"2",
+				"language":"Tamil",
+				"poster":"images/Annakodi.jpg",
+				"posterHover":"images/6RDX.jpg",
+				"availability":"Full",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"8:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"7:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"5"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Balupu",
+				"id":"3",
+				"language":"Telugu",
+				"poster":"images/Balupu_A.jpg",
+				"posterHover":"images/6RDX.jpg",
+				"availability":"No Schedule",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"4"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"After Earth",
+				"id":"4",
+				"language":"English",
+				"poster":"images/After-Earth.jpg",
+				"posterHover":"images/33RDX-3D.jpg",
+				"availability":"Full",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"6"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Singam 2",
+				"id":"5",
+				"language":"Tamil",
+				"poster":"images/Singam2.jpg",
+				"posterHover":"images/33RDX-3D.jpg",
+				"availability":"Available",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"7"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Thillu Mullu",
+				"id":"6",
+				"language":"Tamil",
+				"poster":"images/ThilluMullu.jpg",
+				"posterHover":"images/6RDX.jpg",
+				"availability":"No Schedule",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"2"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"ThulliVilayadu",
+				"id":"7",
+				"language":"Tamil",
+				"poster":"images/ThulliVilayadu.jpg",
+				"posterHover":"images/6RDX.jpg",
+				"availability":"Full",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"1"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"WorldwarZ",
+				"id":"8",
+				"language":"English",
+				"poster":"images/WorldwarZ.jpg",
+				"posterHover":"images/33RDX-3D.jpg",
+				"availability":"Available",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"7"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Ghanchakkar",
+				"id":"9",
+				"language":"Hindi",
+				"poster":"images/Ghanchakkar.jpg",
+				"posterHover":"images/6RDX.jpg",
+				"availability":"Full",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"6"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Fast & Furious 6",
+				"id":"10",
+				"language":"English",
+				"poster":"images/Fast&Furious6.jpg",
+				"posterHover":"images/33RDX-3D.jpg",
+				"availability":"No Schedule",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"5"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Monsters Univ",
+				"id":"11",
+				"language":"English",
+				"poster":"images/MonstersUniv.jpg",
+				"posterHover":"images/20RDX-3D.jpg",
+				"availability":"Full",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"4"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Fukrey",
+				"id":"12",
+				"language":"Hindi",
+				"poster":"images/Fukrey.jpg",
+				"posterHover":"images/6RDX.jpg",
+				"availability":"No Schedule",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"3"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"5 Sundarikal",
+				"id":"13",
+				"language":"Malayalam",
+				"poster":"images/5Sundarikal.jpg",
+				"posterHover":"images/6RDX.jpg",
+				"availability":"No Schedule",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"8"
+				}
+			]	
+		},{
+
+
+
+
+
+
+
+
+		"movies":[{"movieName":"Man of Steel",
+				"id":"14",
+				"language":"English",
+				"poster":"images/ManOfSteel_Atmos.jpg",
+				"posterHover":"images/20RDX-3D.jpg",
+				"availability":"No Schedule",
+				"theatreName":[{"theatre":"ESCAPE",
+				"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+							
+							},{
+							
+							"theatre":"S2PERAMBUR",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							},{
+							"theatre":"SATYAM",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+						
+							},{
+							"theatre":"S2THYAGARAJA",
+							"screen":[{
+
+							"screenName":"Spot",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Frame",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Streak",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+							
+							},{
+							
+							"screenName":"Plush",
+							"showTime":"6:40 PM",
+							"screenType":[{"type1":"ELITE/120","type2":"ELITE/120","type3":"ELITE/120"}],
+							"seats":"100"
+						}]
+
+							}],
+
+				"movieType":"3D",
+				"numberOfDays":"3"
+				}
+			]	
+		}]
+}

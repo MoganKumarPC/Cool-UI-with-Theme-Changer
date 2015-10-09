@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>CAN JS SPI CINEMAS
+      </title>
+      <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+      <link rel="stylesheet/less" type="text/css" href="styles/styles.less">
+      <script src="scripts/less-1.3.3.min.js" ></script>
+   </head>
+   <body>
+      <section class="overlay">
+      </section>
+      <section id="wrapper">
+         <section id="logoContainer">
+            <div id="logo">
+               <p>
+                  SPI
+               </p>
+               <p>
+                  CINEMAS
+               </p>
+            </div>
+            <div id="headerDetails">
+               <ul id="themeList">
+                  <li>
+                     OceanBlue
+                  </li>
+                  <li>
+                     CalmGreen
+                  </li>
+                  <li>
+                     VelvetRed
+                  </li>
+                  <li>
+                     FancyPink
+                  </li>
+                  <li>
+                     DustyBrown
+                  </li>
+                  <li>
+                     RESET
+                  </li>
+               </ul>
+               <p>
+                  <a href="#" id="login">
+                  LOGIN
+                  </a>
+                  <span>
+                  |
+                  </span>
+                  <a href="#" id="themes">
+                  THEMES
+                  </a>
+               </p>
+            </div>
+         </section>
+         <section id="ticketBookingDetails">
+            <article id="showDates">
+               <div class="tabPanel">
+                  <p>
+                     Show Dates
+                  </p>
+               </div>
+               <div id="weeklyCalendar">
+                  <div class="prevWeeklyCalendar">
+                     <p>
+                     <div class="arrowLeft">
+                        <div class="biggerTriangleArrow">
+                        </div>
+                        <div class="smallerTriangleArrow">
+                        </div>
+                     </div>
+                     </p>
+                  </div>
+                  <div id="movieDates">
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                     <div class="square1">
+                        <p>
+                           Mon
+                        </p>
+                        <p>
+                           1
+                        </p>
+                     </div>
+                  </div>
+                  <div class="nextWeeklyCalendar">
+                     <p>
+                     <div class="arrowRight">
+                        <div class="biggerTriangleArrow">
+                        </div>
+                        <div class="smallerTriangleArrow">
+                        </div>
+                     </div>
+                     </p>
+                  </div>
+               </div>
+            </article>
+            <article id="numberOfSeats">
+               <div class="tabPanel">
+                  <p>
+                     Seats
+                  </p>
+               </div>
+               <div id="seatsSelection">
+                  <select id="seats">
+                     <option value="1">
+                        1
+                     </option>
+                     <option value="2">
+                        2
+                     </option>
+                     <option value="3">
+                        3
+                     </option>
+                     <option value="4">
+                        4
+                     </option>
+                     <option value="5">
+                        5
+                     </option>
+                     <option value="6">
+                        6
+                     </option>
+                     <option value="7">
+                        7
+                     </option>
+                     <option value="8">
+                        8
+                     </option>
+                     <option value="9">
+                        9
+                     </option>
+                     <option value="10">
+                        10
+                     </option>
+                  </select>
+               </div>
+            </article>
+            <article id="ticketPaymentDetails">
+               <div id="checkTicketsAvailability">
+                  <table>
+                     <tr>
+                        <td>
+                           Day, Date Time | Seats 
+                        </td>
+                        <td>
+                           : <span id="ticketDay"> </span><span id="ticketMonth"> </span><span id="ticketDate"> </span><span id="ticketTime"> </span> | <span id="ticketSeats">&lt;Please Select&gt;</span>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           Movie | Location 
+                        </td>
+                        <td>
+                           : <span id ="ticketMovie"> &lt;Please Select&gt; </span> | <span id="ticketLocation">&lt;Please Select&gt;</span>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           Screen | Class 
+                        </td>
+                        <td>
+                           : <span id="ticketScreen">&lt;Please Select&gt;</span> | <span id="ticketClass">&lt;Please Select&gt;</span>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           Total Cost 
+                        </td>
+                        <td>
+                           : <span id="ticketCost">&lt;Please Complete Selection&gt;</span>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </article>
+         </section>
+         <section id="movieShowDetails">
+            <article id="moviesStills">
+               <div class="tabPanel">
+                  <p>
+                     Movies
+                  </p>
+                  <ul id="legends">
+                     <li>
+                        <div id="availableLegend">
+                        </div>
+                        Available
+                     </li>
+                     <li>
+                        <div id="fullLegend">
+                        </div>
+                        Full
+                     </li>
+                     <li>
+                        <div id="noScheduleLegend">
+                        </div>
+                        No Schedule
+                     </li>
+                  </ul>
+               </div>
+               <div id="movieCarousel">
+                  <div class="moviePosterSeparator">
+                     <select id="languageFilter">
+                        <option value="SORT BY ALL">
+                           Sort by All
+                        </option>
+                        <option value="Tamil">
+                           Tamil
+                        </option>
+                        <option value="Hindi">
+                           Hindi
+                        </option>
+                        <option value="Telugu">
+                           Telugu
+                        </option>
+                        <option value="Malayalam">
+                           Malayalam
+                        </option>
+                        <option value="English">
+                           English
+                        </option>
+                     </select>
+                  </div>
+                  <div id="movieLanguagePosters">
+                  </div>
+               </div>
+            </article>
+            <article id="moviesInfo">
+               <div class="tabPanel">
+                  <p id="showsTab">
+                     Shows
+                  </p>
+                  <p id="moviesInfoTab">
+                     Movies Info
+                  </p>
+                  <!-- <ul id="legends">
+                     <li>
+                       <div id="availableLegend">
+                       </div>
+                       Available
+                     </li>
+                     <li>
+                       <div id="fullLegend">
+                       </div>
+                       Full
+                     </li>
+                     <li>
+                       <div id="noScheduleLegend">
+                       </div>
+                       No Schedule
+                     </li>
+                     </ul> -->
+               </div>
+               <div id="movieTimings">
+                  <div id="showsTabContent">
+                     <select id='theatreWithinCity'>
+                        <option value='ALL'>
+                           ALL
+                        </option>
+                        <option value='S2PERAMBUR'>
+                           S2PERAMBUR
+                        </option>
+                        <option value='ESCAPE'>
+                           ESCAPE
+                        </option>
+                        <option value='SATYAM'>
+                           SATYAM
+                        </option>
+                        <option value='S2THYAGARAJA'>
+                           S2THYAGARAJA
+                        </option>
+                     </select>
+                     <div id="theatreWithinCityDetails">
+                        <div id="ticketDetails">
+                        </div>
+                        <div id="movieInfoScrollBar">
+                           <div class="arrowTop">
+                              <div class="biggerTriangleArrow">
+                              </div>
+                              <div class="smallerTriangleArrow">
+                              </div>
+                           </div>
+                           <div class="arrowBottom">
+                              <div class="biggerTriangleArrow">
+                              </div>
+                              <div class="smallerTriangleArrow">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button id="bookNowBtn">
+                     Book Now
+                     </button>
+                  </div>
+                  <div id="moviesInfoTabContent">
+                     <div id="movieInformationDetails">
+                        <div id="moviePosterAndInfoContainer">
+                           <ul id="moviePosterDetails">
+                              <li>
+                                 <img src="" alt="moviePoster" id="moviePosterAtInformationPanel">
+                                 <div id="movieNameAtInformationPanel">
+                                    rtgfhgsdfhd
+                                 </div>
+                              </li>
+                              <li>
+                                 <h1>
+                                    dghdg
+                                 </h1>
+                                 <input type="hidden" id="hiddenMovieId" value=""/>
+                                 <p>
+                                    gfdhdg
+                                 </p>
+                              </li>
+                           </ul>
+                        </div>
+                        <div id="movieInfoScrollBar">
+                           <div class="arrowTop">
+                              <div class="biggerTriangleArrow">
+                              </div>
+                              <div class="smallerTriangleArrow">
+                              </div>
+                           </div>
+                           <div class="arrowBottom">
+                              <div class="biggerTriangleArrow">
+                              </div>
+                              <div class="smallerTriangleArrow">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </article>
+         </section>
+         <section id="spriteContainer">
+            <ul id="footerLink">
+               <li>
+                  <a href="#">
+                  Chennai
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Privacy
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Disclaimer
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Credits
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Terms & conditions
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  faq contact
+                  </a>
+               </li>
+            </ul>
+            <div id="spriteImage">
+               <a href="#">
+               <img src="images/spifb.png" alt="fb" width="35px" height="35px" id="fb"/>
+               </a>
+               <a href="#">
+               <img src="images/spitw.png" alt="tw" width="35px" height="35px" id="tw"/>
+               </a>
+            </div>
+         </section>
+         <section id="footerLogo">
+            <ul id="footerLogoLink">
+               <li>
+                  <a href="#">
+                  <img src="images/sathyam.png" alt="logo1">
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  <img src="images/escape.png" alt="logo1">
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  <img src="images/s2.png" alt="logo1">
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  <img src="images/thecinema.png" alt="logo1">
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  <img src="images/id.png" alt="logo1">
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  <img src="images/blur.png" alt="logo1">
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  <img src="images/Ecstasy.png" alt="logo1">
+                  </a>
+               </li>
+            </ul>
+         </section>
+      </section>
+      <div id="seatAllocation">
+         <div id="theatreSeats">
+            <div class="row">
+               <div class="seatNo">1</div>
+               <div class="seatNo">2</div>
+               <div class="seatNo">3</div>
+               <div class="seatNo">4</div>
+               <div class="seatNo">5</div>
+               <div class="seatNo">6</div>
+               <div class="seatNo">7</div>
+               <div class="seatNo">8</div>
+               <div class="seatNo">9</div>
+               <div class="seatNo">10</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">11</div>
+               <div class="seatNo">12</div>
+               <div class="seatNo">13</div>
+               <div class="seatNo">14</div>
+               <div class="seatNo">15</div>
+               <div class="seatNo">16</div>
+               <div class="seatNo">17</div>
+               <div class="seatNo">18</div>
+               <div class="seatNo">19</div>
+               <div class="seatNo">20</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">21</div>
+               <div class="seatNo">22</div>
+               <div class="seatNo">23</div>
+               <div class="seatNo">24</div>
+               <div class="seatNo">25</div>
+               <div class="seatNo">26</div>
+               <div class="seatNo">27</div>
+               <div class="seatNo">28</div>
+               <div class="seatNo">29</div>
+               <div class="seatNo">30</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">31</div>
+               <div class="seatNo">32</div>
+               <div class="seatNo">33</div>
+               <div class="seatNo">34</div>
+               <div class="seatNo">35</div>
+               <div class="seatNo">36</div>
+               <div class="seatNo">37</div>
+               <div class="seatNo">38</div>
+               <div class="seatNo">39</div>
+               <div class="seatNo">40</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">41</div>
+               <div class="seatNo">42</div>
+               <div class="seatNo">43</div>
+               <div class="seatNo">44</div>
+               <div class="seatNo">45</div>
+               <div class="seatNo">46</div>
+               <div class="seatNo">47</div>
+               <div class="seatNo">48</div>
+               <div class="seatNo">49</div>
+               <div class="seatNo">50</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">51</div>
+               <div class="seatNo">52</div>
+               <div class="seatNo">53</div>
+               <div class="seatNo">54</div>
+               <div class="seatNo">55</div>
+               <div class="seatNo">56</div>
+               <div class="seatNo">57</div>
+               <div class="seatNo">58</div>
+               <div class="seatNo">59</div>
+               <div class="seatNo">60</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">61</div>
+               <div class="seatNo">62</div>
+               <div class="seatNo">63</div>
+               <div class="seatNo">64</div>
+               <div class="seatNo">65</div>
+               <div class="seatNo">66</div>
+               <div class="seatNo">67</div>
+               <div class="seatNo">68</div>
+               <div class="seatNo">69</div>
+               <div class="seatNo">70</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">71</div>
+               <div class="seatNo">72</div>
+               <div class="seatNo">73</div>
+               <div class="seatNo">74</div>
+               <div class="seatNo">75</div>
+               <div class="seatNo">76</div>
+               <div class="seatNo">77</div>
+               <div class="seatNo">78</div>
+               <div class="seatNo">79</div>
+               <div class="seatNo">80</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">81</div>
+               <div class="seatNo">82</div>
+               <div class="seatNo">83</div>
+               <div class="seatNo">84</div>
+               <div class="seatNo">85</div>
+               <div class="seatNo">86</div>
+               <div class="seatNo">87</div>
+               <div class="seatNo">88</div>
+               <div class="seatNo">89</div>
+               <div class="seatNo">90</div>
+            </div>
+            <div class="row">
+               <div class="seatNo">91</div>
+               <div class="seatNo">92</div>
+               <div class="seatNo">93</div>
+               <div class="seatNo">94</div>
+               <div class="seatNo">95</div>
+               <div class="seatNo">96</div>
+               <div class="seatNo">97</div>
+               <div class="seatNo">98</div>
+               <div class="seatNo">99</div>
+               <div class="seatNo">100</div>
+            </div>
+         </div>
+         <button id="confirmSeat">confirm</button>
+         <button id="cancelSeat">cancel</button>
+      </div>
+   </body>
+   <script src="scripts/jquery-1.10.1.min.js"></script>
+   <script src="scripts/ejs.js"></script>
+   <script src="scripts/can.custom.js"></script>
+   <script src="scripts/jquery-ui-1.10.3.custom.min.js"></script>
+   <script src="MVCstructure/controller/siteFunctionalityController1.js"></script>
+   <script src="scripts/common.js"></script>
+</html>

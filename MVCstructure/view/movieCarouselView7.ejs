@@ -1,0 +1,137 @@
+          <%$('#movieLanguagePosters').empty();%>
+              <div id="moviePosterPrev">
+          <p>
+           
+                          <div class="arrowLeft">
+                            <div class="biggerTriangleArrow">
+                              
+                            </div>
+                            <div class="smallerTriangleArrow">
+                              
+                            </div>
+                      </div>
+                  </p>
+              </div>
+      
+              
+              <div id="moviePosterArrangement">
+                <ul id='slidingList'>
+                 <%var totalcount=0;
+                 totalcount=this.length;
+                 var languageCount=0;
+                 for(var i=0;i<totalcount;i++){
+                  if($("#languageFilter").val()==this[i].movies[0].language){
+                  languageCount++;
+                  }
+                  
+                  }
+
+                  if($("#languageFilter").val()!="SORT BY ALL"){
+                  totalcount=this.length;
+                  languageCount=totalcount;
+                  }
+                  var bigListReq=totalcount/8,flag=false,k=0,l=1;
+                    if(totalcount>8){
+                      var extraLastDivReq=totalcount%8;
+                      if(extraLastDivReq>0){
+                        bigListReq+=1;
+                      }
+                    }
+                    else{
+                      bigListReq=1;
+                    }
+                    totalcount=this.length;
+                    var x=0;
+                      %>
+
+                      <%
+                        for(var i=0;i<Math.floor(bigListReq);i++){
+                        
+                      %>
+                        <li>
+                                            <ul class="listSliding">
+                                                
+                                               <%for(var j=(i*8)+0;j<=(i*8)+7;j++){
+                                               var temp=this[j];
+                                               
+                                              if(j<totalcount){
+                                               if(($("#languageFilter").val()==this[j].movies[0].language )||($("#languageFilter").val()=="SORT BY ALL" && j<totalcount)){
+                                               %>                      
+                                                                                      
+                                               <%x++;
+                                              
+                                               %>
+                                                  <li class="moviePoster" title=<%=this[j].movies[0].movieName%> id=<%=this[j].movies[0].id%>>
+                                                    <img src=<%=this[j].movies[0].poster%> alt="movie"+i+"-"+j /> 
+                                                    <img src=<%=this[j].movies[0].poster%> alt="movie"+i+"-"+j /> 
+                                                    <div class="movieName">
+                                                    <% var availabilityColor=this[j].movies[0].availability;
+                                                if(availabilityColor=="Full"){
+                                                  availabilityColor="red"
+                                                }
+                                                if(availabilityColor=="Available"){
+                                                  availabilityColor="green"
+                                                }
+                                                if(availabilityColor=="No Schedule"){
+                                                  availabilityColor="grey"
+                                                }%>
+                                                                
+                                                      <p style="background-color:<%=availabilityColor%>">
+                                                          <%=this[j].movies[0].movieName%>
+                                                        </p>
+                                                    </div>
+                                                               
+                      </li>
+                                                  <% if(l%4==0 && l%8!=0){%>
+                                                <div class="moviePosterSeparator">
+                                                <p class="moviePosterSeparatorParaLeft">
+                                                  More Movies
+                                                </p>
+                                                <p class="moviePosterSeparatorParaRight">
+                                                  More Movies
+                                                </p>
+                                              </div>
+                                               <% }%>
+                                                         
+                                                <%l++;}if((j+1)%8==0 && x<languageCount && x<8){i++;}}
+                                                }
+                                               
+                                                %>
+                                              <% if(l<4){%>
+                                                <div class="moviePosterSeparator">
+                                                <p class="moviePosterSeparatorParaLeft">
+                                                  More Movies
+                                                </p>
+                                                <p class="moviePosterSeparatorParaRight">
+                                                  More Movies
+                                                </p>
+                                              </div>
+                                               <% }%>
+                                            </ul>
+                  </li>
+                                                               
+                
+<%}%>
+        </ul>
+              </div>
+              <div id="moviePosterNext">
+                <p>
+
+                  <div class="arrowRight">
+                    <div class="biggerTriangleArrow">
+                      
+                    </div>
+                    <div class="smallerTriangleArrow">
+                      
+                    </div>
+                </div>
+              </p>
+          </div>
+
+                            
+                                
+
+
+
+
+

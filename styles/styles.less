@@ -1,0 +1,1169 @@
+@body_bgcolor:#E4DBC9;
+
+@minimumWindowWidth:300px;
+
+@tabPanelHeight:50px;
+
+@tabPanelPadding:10px 15px 10px 15px;
+
+@fluid_width:100%;
+
+@fluid_height:100%;
+
+@orange:#FF9500;
+
+@green:#FFFFFF;
+
+@Red:#FFFFFF;
+
+@grey:#FFFFFF;
+
+@white:#FFFFFF;
+
+@fontSize:16px;
+
+@black:#000000;
+
+@fontType:calibri;
+
+@tabBorderRadius:40% 40% 0% 0%;
+
+@logoContainerHeight:150px;
+
+@ticketBookingDetailsHeight:300px;
+
+@movieShowDetailsHeight:950px;
+
+@spriteContainerHeight:75px;
+
+@footerLogoHeight:75px;
+
+.tabPanel{
+	width:auto;
+	font-family:@fontType;
+	height:40px;
+	
+}
+
+	.tabPanel p{
+	background-color:@orange; 
+	width:auto;
+	color:@white;
+	font-weight:bold;
+	padding:@tabPanelPadding;
+	cursor:pointer;
+	-webkit-user-select: none;  
+	-moz-user-select: none;
+	-ms-user-select: none;    
+	user-select: none;
+	}
+
+body{
+	background-color:lighten(@orange,40%);
+	font-size:@fontSize;
+	color:@black;
+	font-family:@fontType;
+}
+
+::selection
+{
+color:@orange;
+}
+::-moz-selection
+{
+color:@orange;
+}
+::-ms-selection
+{
+color:@orange;
+}
+#wrapper {
+     background-color:lighten(@orange,40%);
+     height:auto;
+     width:990px;
+     margin:0 auto;
+ } 
+
+ #logoContainer{
+ 	height:80px;	
+ 	color:@grey;
+}
+
+#logo{
+	height:50px;
+	width:100px;
+	margin:5px auto;
+	
+	border-radius:0px 0px 10px 10px;
+	-moz-border-radius:0px 0px 10px 10px;	
+	-ms-border-radius:0px 0px 10px 10px;	
+	box-shadow:5px 5px 30px 0px #000000;
+	-moz-box-shadow:0px 0px 50px 0px #000000;
+	-ms-box-shadow:0px 0px 50px 0px #000000;
+		
+	border:1px solid #000000;
+
+	background-image: linear-gradient(top, rgb(0,5,0) 30%, rgb(74,65,74) 65%, rgb(56,56,56) 98%, rgb(82,76,82) 78%, rgb(0,0,0) 92%);
+	background-image: -moz-linear-gradient(top, rgb(0,5,0) 30%, rgb(74,65,74) 65%, rgb(56,56,56) 98%, rgb(82,76,82) 78%, rgb(0,0,0) 92%);
+	background-image: -ms-linear-gradient(top, rgb(0,5,0) 30%, rgb(74,65,74) 65%, rgb(56,56,56) 98%, rgb(82,76,82) 78%, rgb(0,0,0) 92%);
+	background-image: -webkit-linear-gradient(top, rgb(0,5,0) 30%, rgb(74,65,74) 65%, rgb(56,56,56) 98%, rgb(82,76,82) 78%, rgb(0,0,0) 92%);
+}
+
+#logo p:first-child{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:25px;
+	height:25px;
+	text-align:center;
+}
+
+#logo p:last-child{
+	text-align:center;	
+}
+
+#headerDetails{
+	float:left;
+	width:100%; height:20px;	
+	position:relative;
+}
+
+#headerDetails ul{
+	float:right;
+	width:auto;
+	height:auto;
+	list-style-type:none;
+	position:absolute;
+	right:0px;top:40px;
+	display:none;
+}
+
+#headerDetails ul li{
+	padding:10px;
+	background-color:#FFFFFF;
+	color:#000000;
+	border:1px solid #000000;
+}
+
+#themes{
+	//display:none;
+}
+
+#headerDetails ul li:hover{
+	padding:10px;
+	background-color:#000000;
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+}
+
+#headerDetails p{
+	float:right;
+	height:20px;	
+	color:#000000;
+	margin-right:10px;
+}
+
+#headerDetails p span{
+	padding:0px 10px;
+}
+
+#headerDetails p a{
+	text-decoration:none;
+	color:#000000;
+}
+
+#headerDetails p a:hover{
+	text-shadow:0px 0px 7px #000000;
+}
+
+
+#ticketBookingDetails{
+	height:175px;
+}
+
+	#showDates{
+		width:425px;	
+		height:auto;
+		float:left;
+	}
+
+		#showDates .tabPanel p{
+			float:right;
+			margin-right:40px;
+			border-radius:46px 46px 1px 1px;
+			-moz-border-radius:46px 46px 1px 1px;
+			-ms-border-radius:46px 46px 1px 1px;
+			margin-top:5px;
+		}
+
+			#showDates #weeklyCalendar{
+				height:60px;
+				margin-left:20px;
+		
+				margin-bottom:30px;
+				margin-right:50px;
+				
+				width: 400px;
+				
+				border-top:5px solid @orange;
+				border-bottom:1px solid @orange;
+				border-left:1px solid @orange;
+				border-right:1px solid @orange;
+				
+				border-radius:83px 83px 83px 83px;
+				-moz-border-radius:83px 83px 83px 83px;
+				-ms-border-radius:83px 83px 83px 83px;
+				background-color:@white;
+				box-shadow:0px 22px 50px 0px #555;
+				-moz-box-shadow:0px 22px 50px 0px #555;
+				-ms-box-shadow:0px 22px 50px 0px #555;
+
+			}	
+
+			.square{
+				width:30px;
+				margin-left:3px;
+				margin-top:12px;
+				border:2px solid transparent;
+				float:left;
+				font-size:15px;
+				text-align:center;
+				//background-color:#00BB00;
+			}
+			.square1{
+				width:30px;
+				margin-left:3px;
+				margin-top:12px;
+				border:2px solid transparent;
+				float:left;
+				font-size:15px;
+				text-align:center;
+				background-color:grey;
+			}
+			
+			.prevWeeklyCalendar{
+				.square;
+				margin-top:-5px;
+				margin-left:-10px;
+				margin-right:10px;
+				width:30px;
+				border:none;
+			}
+			.nextWeeklyCalendar{
+				.square;
+				margin-top:14px;
+				margin-left:7px;
+				width:30px;				
+				border:none;
+			}
+
+			.square p{
+				text-align:center;
+			}
+
+			.square .arrowLeft{
+				margin:10px;
+				margin-left:20px;
+			}
+			
+			.square .arrowRight{
+				margin:3px;
+			}
+
+
+	#numberOfSeats{
+		width:150px;
+		height:136px;
+		float:left;
+	}
+	
+	#numberOfSeats .tabPanel{
+		width:auto;
+	}
+
+		#numberOfSeats .tabPanel p{
+			float:left;
+			border-radius:10px 10px 10px 10px;
+			-moz-border-radius:10px 10px 10px 10px;
+			-ms-border-radius:10px 10px 10px 10px;
+
+			padding:8px;
+			margin-left:45px;
+			margin-top:10px;
+		}
+
+		#seatsSelection{
+			width:100px;
+			height:60px;
+			margin-left:20px;
+
+			border-top:5px solid @orange;
+			border-bottom:1px solid @orange;
+			border-left:1px solid @orange;
+			border-right:1px solid @orange;
+			
+			border-radius:20px 20px 20px 20px;
+			-moz-border-radius:20px 20px 20px 20px;
+			-ms-border-radius:20px 20px 20px 20px;
+
+			background-color:@white;
+			box-shadow:0px 22px 50px 0px #555;
+			-moz-box-shadow:0px 22px 50px 0px #555;
+
+			-ms-box-shadow:0px 22px 50px 0px #555;
+		}
+
+		#seatsSelection select{
+			width:40px;
+			height:25px; 
+			font-size:@fontSize; 
+			margin:12px 31px; 
+			//border:1px solid #000;
+			background:url(../images/selectDropDownImg.png) 26px 10px no-repeat;
+			appearance:none;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		-ms-appearance:none;
+
+		background-color:#FFF;
+		}
+
+	#ticketPaymentDetails{
+		width:400px;
+		height:130px;
+		float:left;
+		margin-top:20px;	
+	}
+
+		#checkTicketsAvailability{
+			width:400px;
+			height:148px;
+			background-color:@orange;
+			
+			border-radius:15px;
+			-moz-border-radius:25px;
+			-ms-border-radius:25px;
+			box-shadow:0px 22px 50px 0px #555;
+			-moz-box-shadow:0px 22px 50px 0px #555;
+			-ms-box-shadow:0px 22px 50px 0px #555;
+
+			
+			display:box;
+			display:-moz-box;
+		}
+
+		#checkTicketsAvailability table{
+			align:center;
+			width:100%;
+			font-size:14px;
+			-webkit-user-select: none;  
+			-moz-user-select: none;    
+			-ms-user-select: none;    
+
+			user-select: none;
+		}
+
+		#checkTicketsAvailability table tr{
+			height:20px;
+		}
+
+		#checkTicketsAvailability table tr td{
+			color:@white;
+			padding-left:20px;
+			padding-top:10px;
+			height:20px;
+			margin:0; 
+		}
+			#checkTicketsAvailability table tr td:first-child{
+				width:130px;
+			}
+			#checkTicketsAvailability table tr td:nth-child(2){
+				
+				text-shadow:0px 0px 15px #000;
+			}		
+
+#movieShowDetails{
+	height:540px;
+	width:995px;
+	margin-top:20px;
+}
+
+	#moviesStills{
+		width:510px;
+		height:540px;
+		float:left;
+		margin-left:20px;
+	}
+
+		#moviesStills .tabPanel p{
+			width:auto;
+			float:left;
+			margin-left:45px;
+			border-radius:27px 27px 0px 0px;
+			-moz-border-radius:27px 27px 0px 0px;
+			-ms-border-radius:27px 27px 0px 0px;
+
+		}
+
+		#movieCarousel{
+			width:477px;
+			height:465px;
+			margin-top:-5px;
+			float:left;
+
+			border-top:5px solid @orange;
+			border-left:3px solid @orange;
+			border-right:3px solid @orange;
+			border-bottom:3px solid @orange;
+			
+			border-radius:40px 40px 40px 40px;
+			-moz-border-radius:40px 40px 40px 40px;
+			-ms-border-radius:40px 40px 40px 40px;
+
+			box-shadow:0px 22px 50px 0px #555;
+			-moz-box-shadow:0px 22px 50px 0px #555;
+			-ms-box-shadow:0px 22px 50px 0px #555;
+
+		}
+
+		.moviePoster{
+			width:80px;
+			height:150px;
+		}
+
+		.moviePoster img{
+			width:80px;
+			height:130px;
+			float:left;
+		}
+
+		.moviePoster .movieName{
+			width:80px;
+			height:20px;
+			//background-color:#00AF00;
+			color:#FFFFFF;
+			font-size:14px;
+			text-align:center;
+			float:left;
+			overflow:hidden;
+		}
+
+		.moviePoster img:nth-child(2){
+			display:none;
+			float:left;
+		}
+		.movieName p{
+			padding:4px;
+			overflow:hidden;
+		}
+			#moviePosterPrev{
+				height:386px;
+				width:36px;
+				float:left;
+			}
+
+			#moviePosterPrev .arrowLeft{
+				margin-top:178px;
+			}
+
+			#moviePosterNext .arrowRight{
+				margin-top:178px;
+			}
+
+			#moviePosterArrangement{
+				height:386px;
+				position:relative;
+				overflow:hidden;
+				width:403px;
+				float:left;
+				list-style-type:none;
+			}
+			#moviePosterArrangement >li{
+				height:686px;
+				width:810px;
+				float:left;
+				overflow:hidden;
+			}
+			#moviePosterArrangement li{
+				float:left;
+			}
+
+			.listSliding{
+				width:392px; 
+				height:auto;
+				list-style-type:none;
+			}
+			
+			#slidingList{
+				position:absolute;
+				list-style-type:none;
+				overflow:hidden;
+				width:auto;
+				height:686px;
+				float:left;
+			}
+
+			#slidingList>li{
+				float:left;
+				width:auto;
+				overflow:hidden;
+			}
+
+			#moviePosterNext{
+				height:386px;
+				width:36px;
+				float:left;
+			}
+			.moviePosterSeparator{
+				width:100%; 
+				height:auto; 
+				float:left; 
+				margin:11px 0px 5px 0px;
+			}
+			.moviePosterSeparator select{
+				width:90px; 
+				height:auto; 
+				font-size:@fontSize; 
+				margin-left:50px;
+				margin-top:20px;
+				margin-bottom:10px;
+				float:left;
+				background:url(../images/selectDropDownImg.png) 75px 8px no-repeat;
+				appearance:none;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		-ms-appearance:none;
+
+		//background-color:#FFF;
+			}
+
+			.moviePoster{
+				width:80px;
+				height:150px;
+				margin-left:16px;
+				margin-top:18px;
+				border:1px solid #000;
+				float:left;
+			}
+
+			.moviePosterSeparatorParaLeft{
+				float:left; 
+				margin-top:5px;
+				margin-left:10px; 
+				color:#000;
+			}
+			.moviePosterSeparatorParaRight{
+				float:right;
+				margin-top:5px;
+				margin-right:10px;
+			}
+
+
+	#moviesInfo{
+		width:460px;
+		height:540px;
+		float:left;
+		font-size:30px;
+	}
+
+	#moviesInfo .tabPanel{
+		height:36px;
+	}
+
+		#moviesInfo .tabPanel p{
+			width:auto;
+			float:left;
+			border-radius:27px 27px 0px 0px;
+			-moz-border-radius:27px 27px 0px 0px;
+			-ms-border-radius:27px 27px 0px 0px;
+
+			font-size: 16px;
+		}
+
+		#moviesInfo .tabPanel p:first-child{
+			margin-left:32px;
+		}
+
+		#moviesInfo .tabPanel p:nth-child(2){
+			margin-left:0%;
+		}
+
+			#legends{
+				float:right;
+				width:auto; 
+				height:auto;
+				list-style-type:none;
+				font-size:14px;
+				margin-top:8px;
+				margin-right:50px;
+			}
+
+			#legends li{
+				float:left; 
+				margin:5px;
+				display:inline;
+			}
+
+			#availableLegend{
+				float:left;
+				margin-right:5px;
+				margin-top:0px;
+				width:10px;
+				height:10px;
+				background-color:green;
+				display:inline;
+			}
+			#fullLegend{
+				float:left;
+				margin-right:5px;
+				margin-top:0px;
+				width:10px;
+				height:10px;
+				background-color:red;
+				display:inline;
+			}
+			#noScheduleLegend{
+				float:left;
+				margin-right:5px;
+				margin-top:0px;
+				width:10px;
+				height:10px;
+				background-color:grey;
+				display:inline;
+			}
+
+		#movieTimings{
+			width:431px;
+			height:460px;
+			font-size:10px;
+
+			border-top:5px solid @orange;
+			border-left:3px solid @orange;
+			border-right:3px solid @orange;
+			border-bottom:3px solid @orange;
+			
+			border-radius:40px 40px 40px 40px;
+			-moz-border-radius:60px 60px 60px 60px;
+			-ms-border-radius:60px 60px 60px 60px;
+
+			box-shadow:0px 22px 50px 0px #555;
+			-moz-box-shadow:0px 22px 50px 0px #555;
+			-ms-box-shadow:0px 22px 50px 0px #555;
+
+		}
+
+		#showsTabContent{
+			width:385px;
+			height:416px;
+			display:none;
+			float:left;
+			margin:20px 0px 0px 40px;
+			display:none;
+		}
+		#moviesInfoTabContent{
+			width:382px;
+			height:416px;
+			display:none;
+			float:left;
+			margin:20px 0px 0px  40px;
+		}
+
+#spriteContainer{
+	height:65px;
+	margin-left:20px;
+	width:auto;
+}
+
+	#footerLink{
+		list-style-type:none;
+		width:600px;height:65px;
+		margin-top:8px;
+		float:left;
+	}
+
+	#footerLink li{
+		float:left;
+	}
+
+	#footerLink li a{
+		float:left;
+		padding:10px;
+		margin:2px;
+		color:#666;
+		font-size:16px;
+		text-decoration:none;
+	}
+	
+	#footerLink li a:hover{
+		color:@black;
+		text-shadow:0px 0px 15px @black;
+	}
+	#spriteImage{
+		list-style-type:none;
+		float:right;
+		width:auto; height:75px;
+		margin-right:20px;
+	}
+	#spriteImage a{
+		text-decoration:none;
+	}
+
+	#fb{
+		margin-top:10px;
+	}
+
+	#tw{
+		margin-top:10px;
+	}
+
+#footerLogo{
+	height:75px;
+	width:auto;
+	margin-left:123px;
+	float:left;
+}
+	
+
+	#footerLogo ul{
+		list-style-type:none;
+		text-align:center;
+		width:auto;
+		height:100%;
+	}
+
+	#footerLogoLink li{
+		float:left;
+		margin:2px;
+	}
+
+	#footerLogoLink li a{
+		float:left;
+		width:auto; height:auto;
+		padding:10px;
+		margin:2px;
+		text-decoration:none;
+		text-align:center;
+	}
+	#footerLogoLink li a:hover{
+		box-shadow:0px 22px 50px 0px #555;
+		-moz-box-shadow:0px 22px 50px 0px #555;
+		-ms-box-shadow:0px 22px 50px 0px #555;
+
+	}
+
+	#footerLogoLink li a img{
+		height:auto;
+		width:auto;
+	} 
+
+
+.arrowRight{
+	width:38px; height:58px;
+	position:relative;	
+	color:@orange;
+}
+
+.smallerTriangleArrow{
+	color:@orange;
+	width: 0px;
+	height: 0px;
+
+	border-style: solid;
+	border-width: 12px 0 12px 12px;
+	border-color: transparent transparent transparent @orange;
+
+	position:absolute;
+	top:2.5px; 
+	left:3px;
+}
+
+.biggerTriangleArrow{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15px 0 15px 15px;
+	border-color: transparent transparent transparent lighten(@orange,20%);
+	color:lighten(@orange,20%);
+
+	position:absolute;
+	top:0; 
+	left:8px;
+}
+
+.arrowLeft{
+	transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+
+	-webkit-transform:rotate(-180deg);
+	color:@orange;
+	width:25px; 
+	height:32px;
+	position:relative;
+	margin:15px;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.arrowLeft:hover{
+
+	transform: scale(1.5,1) rotate(-180deg);
+	-moz-transform: scale(1.5,1) rotate(-180deg);
+	-ms-transform: scale(1.5,1) rotate(-180deg); 
+
+	-webkit-transform: scale(1.5,1) rotate(-180deg);	
+}
+
+.arrowRight:hover{
+	transform: scale(1.5,1);
+	-moz-transform: scale(1.5,1); 
+	-ms-transform: scale(1.5,1); 
+
+	-webkit-transform: scale(1.5,1);
+}
+
+#weeklyCalendar .square{
+	background-color:#00BB00;
+}
+
+#weeklyCalendar .square:hover{
+	border:2px solid #000000 !important;
+	color:@white !important;
+	cursor:pointer !important;
+}
+
+select{
+	font-family:calibri;
+}
+
+		#weeklyCalendar .square:nth-child(1){
+			//border:2px solid #000000;
+			//color:#FFF;
+		}
+
+			select option{
+				font-size:20px;
+			}
+			
+.dayClickedActive{
+	border:2px solid #000000;
+	color:@white;
+	cursor:pointer;
+}
+
+.arrowTop{
+	transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+
+	-webkit-transform:rotate(-90deg);
+	color:@orange;
+	width:38px; 
+	height:58px;
+	position:relative;
+}
+
+.arrowBottom{
+	transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+
+	-webkit-transform:rotate(90deg);
+	color:@orange;
+	width:30px; 
+	height:30px;
+	position:relative;
+}
+
+.arrowTop:hover{
+	transform: scale(1,2) rotate(-90deg);
+	-moz-transform: scale(1,2) rotate(-90deg); 
+	-ms-transform: scale(1,2) rotate(-90deg); 
+
+	-webkit-transform: scale(1,2) rotate(-90deg);	
+}
+
+.arrowBottom:hover{
+	transform: scale(1,2) rotate(90deg);
+	-moz-transform: scale(1,2) rotate(90deg); 
+	-ms-transform: scale(1,2) rotate(90deg); 
+
+	-webkit-transform: scale(1,2) rotate(90deg);	
+}
+
+#bookNowBtn{
+	background-color:@orange;
+	color:#000;
+	width:auto;
+	height:auto;
+	padding:4px;
+	font-size:15px;
+	
+	border:3px solid #FFF;
+	outline:none;
+	float:right;
+	margin:20px;
+	
+	box-shadow:0px 0px 15px 5px #FFF;
+	-moz-box-shadow:0px 0px 15px 5px #FFF;
+	-ms-box-shadow:0px 0px 15px 5px #FFF;
+
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+
+}
+
+#theatreWithinCityDetails,#movieInformationDetails{
+	width:382px;
+	height:330px;
+	float:left;
+}
+
+#movieInformationDetails{
+	width:382px;
+	height:330px;
+	float:left;
+	margin-top:30px;
+}
+#movieInfoScrollBar{
+width:50px;
+	height:315px;	
+	float:right;
+	position:relative;
+	margin-top:20px;
+}
+
+#movieInfoScrollBar .arrowTop{
+	position:absolute;
+	top:-18px;
+	right:-10px;
+}
+
+#movieInfoScrollBar .arrowBottom{
+	position:absolute;
+	bottom:0px;
+	right:20px;
+}
+
+#theatreWithinCity{
+	width:129px;
+	height:30px;
+	float:left;
+	font-size:16px;
+	background:url(../images/selectDropDownImg.png) 112px 12px no-repeat;
+		appearance:none;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		-ms-appearance:none;
+
+		
+}
+#theatreDetails{
+	margin-top:30px;
+}
+
+#theatreDetails,#moviePosterDetails{
+	list-style-type:none;
+	width:320px;
+	height:auto;
+	float:left;
+	font-size:12px;
+}
+
+#theatreDetails li{
+	width:auto;
+	height:50px;
+}
+#theatreDetails li p{
+	width:40px;
+	height:auto;
+	float:left;
+}
+
+#theatreDetails li p:nth-child(1){
+	width:90px;	
+}
+
+#theatreDetails li p:nth-child(2){
+	width:90px;	
+}
+
+#theatreDetails li p:nth-child(3){
+	width:120px;	
+}
+
+#theatreDetails li p:nth-child(3) span{
+	background-color:#00BB00;
+	color:#FFF;
+	padding:3px;
+}
+
+#theatreCarouselContainer, #moviePosterAndInfoContainer{
+	width:330px;
+	height:320px;
+	overflow:hidden;
+	float:left;
+	margin-top:20px;
+}
+
+#moviePosterDetails li:first-child{
+	.moviePoster
+}
+
+#moviePosterDetails li{
+	float:left;
+}
+#moviePosterDetails,
+#moviePosterAtInformationPanel,
+#movieNameAtInformationPanel{
+	float:left;
+}
+#moviePosterAtInformationPanel,
+#movieNameAtInformationPanel{
+	float:left;
+	width:auto;
+	height:auto;
+}
+
+#moviePosterAtInformationPanel{
+	width:80px;
+	height:130px;
+	float:left;
+}
+#movieNameAtInformationPanel{
+	.moviePoster .movieName;
+}
+
+#moviePosterDetails li:nth-child(2) h1{
+	font-size:30px;
+	font-weight:bold;
+	margin:10px;
+}
+
+#moviePosterDetails li:nth-child(2) p{
+	font-size:20px;
+	margin:20px;
+	padding-top:20px;
+	color:#999;
+}
+#movieNameAtInformationPanel p{
+	padding:4px;
+	overflow:hidden;
+}
+body select option{
+	background-color:@orange;
+	color:#FFF;
+}
+
+.theatreName{
+	border:2px solid transparent;
+	cursor:pointer;
+}
+
+#seatAllocation{
+	width:800px;
+	height:530px;
+	position:fixed;
+	top:0;bottom:0;left:0;right:0; margin:auto;
+	display:none;
+	border:1px solid #000;
+	box-shadow: 0px 0px 77px 0px;
+	-webkit-box-shadow: 0px 0px 77px 0px;
+	-moz-box-shadow: 0px 0px 77px 0px;
+	-ms-box-shadow: 0px 0px 77px 0px;
+
+	z-index:2;
+	background-color:@orange;
+}
+
+#seatAllocation button{
+	outline:none;
+	border:none;
+	background-color:#FFF;
+	border:3px solid #000;
+	float:none;
+	position:absolute;
+	
+}
+
+#seatAllocation #confirmSeat{
+	
+	bottom:15px;left:310px;
+}
+
+#seatAllocation #cancelSeat{
+	
+	bottom:14px;left:425px;
+}
+
+#seatAllocation{
+	
+	border:1px solid #000;
+	padding:10px;
+}
+
+#theatreSeats{
+	border:5px dashed #000;
+	width:520px;height:auto;
+	position:absolute;
+	left:140px;
+	margin-top:10px;
+}
+#theatreSeats .row .seatNo:nth-child(5){
+	margin-right:50px;
+}
+
+#seatAllocation .seatNo{
+	width:30px;height:20px;
+	border:3px solid #000;
+	margin:5px;
+	text-align:center;
+	float:left;
+	line-height:1;
+	color:#000;
+	background-color:#FFF;
+}
+
+#seatAllocation .row{
+	margin:5px;
+	float:left;
+}
+
+#movieLanguagePosters{
+	float:left;
+}
+
+.seatGreen{
+	background-color:green;
+}
+
+.seatRed{
+	background-color:red;
+}
+.chosenSeats{
+	background-color:#090;
+	color:#FFF;
+}
+
+#movieCarousel .arrowLeft .smallerTriangleArrow{
+	border-color:transparent transparent transparent #666666
+}
+
+#movieCarousel .arrowLeft .biggerTriangleArrow{
+	border-color:transparent transparent transparent #999999;
+}
+
+select{
+		background-color:#FFF;
+	}
+
+.overlay{
+	width:100%;
+	height:100%;
+	//background-color:@orange;
+	background-color:transparent;
+	opacity:0.2;
+	display:none;
+	z-index:1;
+	position:absolute;
+	margin-top:-10px;
+}
+
